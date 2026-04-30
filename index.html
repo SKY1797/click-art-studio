@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Art — Cinematic Wedding & Portrait Photography | It's All About Light</title>
+  <meta name="description"
+    content="Click Art is a premium Indian wedding and portrait photography studio. We craft cinematic, editorial-quality imagery that captures the light, emotion, and grandeur of your most cherished moments.">
+  <meta name="keywords"
+    content="wedding photography, Indian wedding photographer, portrait photography, cinematic photography, Click Art, bridal portraits, pre-wedding shoots">
+  <meta name="author" content="Click Art Photography">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Click Art — Cinematic Wedding & Portrait Photography">
+  <meta property="og:description"
+    content="It's all about light. Premium Indian wedding and portrait photography studio.">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/sections.css">
+
+  <!-- Favicon (copper-tinted camera emoji as SVG) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📷</text></svg>">
+</head>
+
+<body>
+
+  <!-- ====== SPOTLIGHT OVERLAY ====== -->
+  <div id="spotlight"></div>
+
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav__logo">
+      <img src="assets/Logo.png" alt="Click Art Photography" class="nav__logo-img">
+    </a>
+
+    <ul class="nav__links">
+      <li><a href="#about" class="nav__link">About</a></li>
+      <li><a href="#services" class="nav__link">Services</a></li>
+      <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+      <li><a href="#contact" class="nav__link">Contact</a></li>
+    </ul>
+
+    <!-- Mobile Hamburger -->
+    <div class="nav__hamburger" id="nav-hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="nav__mobile-overlay" id="nav-mobile-overlay">
+    <a href="#about" class="nav__link">About</a>
+    <a href="#services" class="nav__link">Services</a>
+    <a href="#portfolio" class="nav__link">Portfolio</a>
+    <a href="#contact" class="nav__link">Contact</a>
+  </div>
+
+
+  <!-- ====== HERO SECTION ====== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="assets/images/hero-wedding.png" alt="Cinematic Indian wedding ceremony under warm golden lights"
+        loading="eager">
+    </div>
+
+    <div class="hero__glow"></div>
+
+    <div class="hero__content">
+      <h1 class="hero__title" data-hero-animate>
+        Capturing<br>
+        <em>Moments</em><br>
+        Forever
+      </h1>
+      <p class="hero__quote" data-hero-animate>"It's All About Light"</p>
+      <p class="hero__description" data-hero-animate>
+        From mehendi's henna whispers to the tearful vidaai — we frame every heartbeat of your love story with cinematic
+        warmth.
+      </p>
+      <div class="hero__actions" data-hero-animate>
+        <a href="#contact" class="btn magnetic" data-magnetic-strength="12" data-magnetic-radius="80">
+          <span>Contact Us</span>
+          <span class="btn__arrow">→</span>
+        </a>
+        <a href="#portfolio" class="btn magnetic" data-magnetic-strength="12" data-magnetic-radius="80">
+          <span>View Our Work</span>
+          <span class="btn__arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__scroll-indicator" data-hero-animate>
+      <div class="hero__scroll-line"></div>
+      <span class="hero__scroll-text">Scroll</span>
+    </div>
+  </section>
+
+
+  <!-- ====== ABOUT SECTION ====== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+
+        <div class="about__image-wrapper">
+          <img src="assets/images/about-photographer.png" alt="Click Art photographer at work in a warmly lit studio"
+            class="about__image" loading="lazy">
+        </div>
+
+        <div class="about__text">
+          <div class="section__label reveal reveal-delay-1">Our Story</div>
+
+          <blockquote class="about__quote reveal reveal-delay-2">
+            "We don't just capture photographs — We paint your stories of LOVE & JOY with LIGHT."
+          </blockquote>
+
+          <!-- <hr class="about__divider reveal reveal-delay-3"> -->
+
+          <p class="about__description reveal reveal-delay-4">
+            Founded in the heart of India, Click Art is a boutique photography studio
+            specializing in cinematic wedding films and editorial portrait sessions. We believe
+            that every love story deserves to be told with the artistry of cinema and the
+            intimacy of a whispered promise.
+          </p>
+
+          <p class="about__description reveal reveal-delay-5">
+            Our approach is rooted in natural light, candid emotion, and meticulous
+            composition. From grand celebrations to quiet, stolen glances — we find the
+            extraordinary in every frame.
+          </p>
+
+          <div class="about__stats reveal reveal-delay-6">
+            <div class="about__stat">
+              <div class="about__stat-number" data-count="500" data-suffix="+">0</div>
+              <div class="about__stat-label">Weddings Captured</div>
+            </div>
+            <div class="about__stat">
+              <div class="about__stat-number" data-count="12" data-suffix="+">0</div>
+              <div class="about__stat-label">Years of Craft</div>
+            </div>
+            <div class="about__stat">
+              <div class="about__stat-number" data-count="30" data-suffix="+">0</div>
+              <div class="about__stat-label">Cities Covered</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====== SERVICES SECTION ====== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section__label reveal">What We Create</div>
+      <h2 class="section__heading reveal reveal-delay-1">
+        Crafting Stories in <em>Light</em>
+      </h2>
+
+      <div class="services__grid services__grid--6">
+        <div class="service-card reveal reveal-delay-2">
+          <h3 class="service-card__title">Wedding Photography</h3>
+          <p class="service-card__description">
+            Every vow, every tear, every joyful glance — captured with cinematic
+            precision. We document the grandeur and intimacy of your wedding day
+            as a timeless visual legacy.
+          </p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <h3 class="service-card__title">Pre-Wedding</h3>
+          <p class="service-card__description">
+            From misty mountaintops to royal palace courtyards — we transform your
+            pre-wedding story into a cinematic experience that sets the stage for
+            your forever.
+          </p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-4">
+          <h3 class="service-card__title">Cinematic Films</h3>
+          <p class="service-card__description">
+            Full-length wedding films crafted like feature movies — rich with emotion,
+            music, and breathtaking visuals. A cinematic heirloom you'll revisit for
+            generations.
+          </p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-5">
+          <h3 class="service-card__title">Portfolio Shoots</h3>
+          <p class="service-card__description">
+            Editorial portraits and personal branding sessions crafted to elevate your
+            identity. We use natural light and dramatic composition to create imagery
+            that speaks volumes.
+          </p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-6">
+          <h3 class="service-card__title">Maternity &amp; Baby</h3>
+          <p class="service-card__description">
+            Tender, glowing portraits celebrating new life. From expectant mothers to
+            newborn milestones — we freeze these fleeting, precious moments in
+            warm, beautiful light.
+          </p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-7">
+          <h3 class="service-card__title">Corporate Events</h3>
+          <p class="service-card__description">
+            Professional event coverage that reflects your brand's prestige. Conferences,
+            launches, award nights — documented with editorial quality and
+            polished storytelling.
+          </p>
+        </div>
+      </div>
+
+      <!-- ====== HOW WE WORK ====== -->
+      <div class="how-we-work reveal reveal-delay-2">
+        <div class="section__label how-we-work__label">How We Work</div>
+        <h2 class="how-we-work__heading reveal reveal-delay-3">
+          Our Simple <em>Process</em>
+        </h2>
+        <p class="how-we-work__subtext reveal reveal-delay-4">
+          From the first phone call to the final album, we hold your hand<br>through every frame.
+        </p>
+
+        <div class="process__timeline reveal reveal-delay-5">
+          <div class="process__step">
+            <div class="process__step-circle">
+              <span class="process__step-number">01</span>
+            </div>
+            <div class="process__step-connector"></div>
+            <h4 class="process__step-title">Discovery Call</h4>
+            <p class="process__step-desc">We sit, sip chai, and listen to your story.</p>
+          </div>
+
+          <div class="process__step">
+            <div class="process__step-circle">
+              <span class="process__step-number">02</span>
+            </div>
+            <div class="process__step-connector"></div>
+            <h4 class="process__step-title">Plan & Scout</h4>
+            <p class="process__step-desc">Locations, moodboards, and a custom shot-list.</p>
+          </div>
+
+          <div class="process__step process__step--active">
+            <div class="process__step-circle">
+              <span class="process__step-number">03</span>
+            </div>
+            <div class="process__step-connector"></div>
+            <h4 class="process__step-title">The Shoot Day</h4>
+            <p class="process__step-desc">We become invisible — and capture every emotion.</p>
+          </div>
+
+          <div class="process__step">
+            <div class="process__step-circle">
+              <span class="process__step-number">04</span>
+            </div>
+            <div class="process__step-connector"></div>
+            <h4 class="process__step-title">Post Production</h4>
+            <p class="process__step-desc">Hand-graded edits with our signature warm palette.</p>
+          </div>
+
+          <div class="process__step process__step--last">
+            <div class="process__step-circle">
+              <span class="process__step-number">05</span>
+            </div>
+            <h4 class="process__step-title">Delivery</h4>
+            <p class="process__step-desc">Film, gallery, and a heirloom album for generations.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services__cta reveal reveal-delay-6">
+        <div class="magnetic-wrap" style="display:inline-block;">
+          <a href="#contact" class="btn magnetic" data-magnetic-strength="15" data-magnetic-radius="100">
+            <span>Schedule a Consult</span>
+            <span class="btn__arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====== PORTFOLIO SECTION ====== -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section__label reveal">Our Work</div>
+
+      <!-- ====== STORIES WE'VE TOLD ====== -->
+      <div class="portfolio__stories reveal reveal-delay-1">
+        <h2 class="section__heading">
+          Stories We have <em>Told...</em>
+        </h2>
+
+        <div class="marquee-wrapper">
+          <div class="marquee">
+            <!-- Track 1 -->
+            <div class="marquee__track">
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M1.png" alt="Story 1" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M2.png" alt="Story 2" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M3.png" alt="Story 3" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M4.png" alt="Story 4" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M5.png" alt="Story 5" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M6.png" alt="Story 6" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M7.png" alt="Story 7" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+            </div>
+            <!-- Track 2 (Clone) -->
+            <div class="marquee__track" aria-hidden="true">
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M1.png" alt="Story 1" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M2.png" alt="Story 2" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M3.png" alt="Story 3" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M4.png" alt="Story 4" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M5.png" alt="Story 5" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M6.png" alt="Story 6" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dummy" target="_blank" class="marquee__item">
+                <img src="assets/Video/M7.png" alt="Story 7" loading="lazy">
+                <div class="marquee__play"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section__heading reveal reveal-delay-1" style="margin-top: 2.5rem;">
+        A Gallery of <em>Moments...</em>
+      </h2>
+
+      <div class="portfolio__filters reveal reveal-delay-2">
+        <button class="filter-pill active" data-filter="all" id="filter-all">All</button>
+        <button class="filter-pill" data-filter="wedding" id="filter-wedding">Weddings</button>
+        <button class="filter-pill" data-filter="portrait" id="filter-portrait">Portraits</button>
+        <button class="filter-pill" data-filter="prewedding" id="filter-prewedding">Pre-Wedding</button>
+      </div>
+
+      <div class="portfolio__masonry" id="portfolio-grid">
+        <div class="portfolio__item reveal reveal-delay-2" data-category="wedding">
+          <img src="assets/images/portfolio-wedding-1.png"
+            alt="Indian wedding ceremony — exchange of garlands under candlelight" loading="lazy">
+          <div class="portfolio__caption">
+            <h4 class="portfolio__caption-title">Sacred Vows</h4>
+            <span class="portfolio__caption-category">Wedding</span>
+          </div>
+        </div>
+
+        <div class="portfolio__item reveal reveal-delay-3" data-category="portrait">
+          <img src="assets/images/portfolio-portrait-1.png"
+            alt="Bridal portrait with intricate gold jewelry and red dupatta" loading="lazy">
+          <div class="portfolio__caption">
+            <h4 class="portfolio__caption-title">Bridal Radiance</h4>
+            <span class="portfolio__caption-category">Portrait</span>
+          </div>
+        </div>
+
+        <div class="portfolio__item reveal reveal-delay-4" data-category="prewedding">
+          <img src="assets/images/portfolio-prewedding.png" alt="Pre-wedding couple on a misty hilltop at dawn"
+            loading="lazy">
+          <div class="portfolio__caption">
+            <h4 class="portfolio__caption-title">Mountain Mist</h4>
+            <span class="portfolio__caption-category">Pre-Wedding</span>
+          </div>
+        </div>
+
+        <div class="portfolio__item reveal reveal-delay-5" data-category="wedding">
+          <img src="assets/images/portfolio-wedding-2.png"
+            alt="Wedding reception dance floor with confetti and warm lights" loading="lazy">
+          <div class="portfolio__caption">
+            <h4 class="portfolio__caption-title">Celebration Nights</h4>
+            <span class="portfolio__caption-category">Wedding</span>
+          </div>
+        </div>
+
+        <div class="portfolio__item reveal reveal-delay-6" data-category="portrait">
+          <img src="assets/images/portfolio-portrait-2.png"
+            alt="Couple portrait in a Rajasthani palace courtyard at golden hour" loading="lazy">
+          <div class="portfolio__caption">
+            <h4 class="portfolio__caption-title">Golden Palace</h4>
+            <span class="portfolio__caption-category">Portrait</span>
+          </div>
+        </div>
+
+        <div class="portfolio__item reveal reveal-delay-7" data-category="wedding">
+          <img src="assets/images/hero-wedding.png" alt="Wedding ceremony by the sacred fire with fairy lights"
+            loading="lazy">
+          <div class="portfolio__caption">
+            <h4 class="portfolio__caption-title">By the Sacred Fire</h4>
+            <span class="portfolio__caption-category">Wedding</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====== REVIEWS SECTION ====== -->
+  <section class="reviews section" id="reviews">
+    <div class="container">
+      <div class="section__label reveal" style="justify-content:center;">Kind Words</div>
+      <h2 class="section__heading reviews__heading reveal reveal-delay-1">What Our <em>Couples Say</em></h2>
+
+      <div class="reviews__carousel" id="reviews-carousel" aria-live="polite">
+
+        <div class="review-slide active">
+          <blockquote class="review__quote">
+            "The right mixes and timing of the Wedding Film is so unique that it made us feel like the leads of a
+            cinematic film."
+          </blockquote>
+          <div class="review__author">
+            <span class="review__name">Shekhar &amp; Priya Prasad</span>
+            <span class="review__role">Wedding, Jaipur</span>
+          </div>
+        </div>
+
+        <div class="review-slide">
+          <blockquote class="review__quote">
+            "Click Art didn't just photograph our wedding — they painted it. Every frame felt like a scene from a film
+            we never knew we were starring in."
+          </blockquote>
+          <div class="review__author">
+            <span class="review__name">Aarav &amp; Meera Sharma</span>
+            <span class="review__role">Wedding, Udaipur</span>
+          </div>
+        </div>
+
+        <div class="review-slide">
+          <blockquote class="review__quote">
+            "The pre-wedding shoot was beyond our imagination. They found light in places we never noticed. Absolute
+            artists."
+          </blockquote>
+          <div class="review__author">
+            <span class="review__name">Rohan &amp; Ananya Mehta</span>
+            <span class="review__role">Pre-Wedding, Jodhpur</span>
+          </div>
+        </div>
+
+        <div class="review-slide">
+          <blockquote class="review__quote">
+            "Our family still watches the wedding film every anniversary. The emotion, the music, the editing — it's a
+            masterpiece."
+          </blockquote>
+          <div class="review__author">
+            <span class="review__name">Vikram &amp; Neha Singhania</span>
+            <span class="review__role">Wedding &amp; Film, Delhi</span>
+          </div>
+        </div>
+
+        <div class="review-slide">
+          <blockquote class="review__quote">
+            "They were invisible on the day, yet captured every single tear, laugh, and stolen glance. We are forever
+            grateful."
+          </blockquote>
+          <div class="review__author">
+            <span class="review__name">Kabir &amp; Ishani Verma</span>
+            <span class="review__role">Wedding, Jaisalmer</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Dot indicators -->
+      <div class="reviews__dots" id="reviews-dots" aria-label="Review navigation"></div>
+    </div>
+  </section>
+
+
+  <!-- ====== CONTACT SECTION ====== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section__label reveal">Get In Touch</div>
+      <h2 class="section__heading reveal reveal-delay-1">
+        Let's Create <em>Together</em>
+      </h2>
+
+      <div class="contact__grid">
+        <div class="contact__image-wrapper reveal--left reveal-delay-2" data-speed="-0.05">
+          <img src="assets/images/contact-venue.png"
+            alt="Atmospheric heritage venue with candles and warm ambient lighting" class="contact__image"
+            loading="lazy">
+        </div>
+
+        <div class="contact__form-wrapper">
+          <form class="contact__form" id="contact-form" novalidate>
+            <div class="form-group reveal reveal-delay-3">
+              <label for="contact-name" class="form-group__label">Your Name</label>
+              <input type="text" id="contact-name" class="form-group__input" placeholder="Enter your full name"
+                required>
+            </div>
+
+            <div class="form-group reveal reveal-delay-4">
+              <label for="contact-email" class="form-group__label">Email</label>
+              <input type="email" id="contact-email" class="form-group__input" placeholder="your@email.com" required>
+            </div>
+
+            <div class="form-group reveal reveal-delay-5">
+              <label for="contact-phone" class="form-group__label">Phone</label>
+              <input type="tel" id="contact-phone" class="form-group__input" placeholder="+91 98765 43210">
+            </div>
+
+            <div class="form-group reveal reveal-delay-6">
+              <label for="contact-date" class="form-group__label">Event Date</label>
+              <input type="date" id="contact-date" class="form-group__input">
+            </div>
+
+            <div class="form-group reveal reveal-delay-7">
+              <label for="contact-message" class="form-group__label">Your Story</label>
+              <textarea id="contact-message" class="form-group__textarea"
+                placeholder="Tell us about your celebration..." rows="4"></textarea>
+            </div>
+
+            <div class="reveal reveal-delay-8">
+              <div class="magnetic-wrap" style="display:inline-block;padding:1.5rem;">
+                <button type="submit" class="btn btn--filled magnetic" id="contact-submit" data-magnetic-strength="15"
+                  data-magnetic-radius="100">
+                  <span>Let's Create Together</span>
+                  <span class="btn__arrow">→</span>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div class="contact__info reveal reveal-delay-8">
+            <div class="contact__info-item">
+              <span class="contact__info-icon">📍</span>
+              <span>Studio 42, Art District, Jaipur, Rajasthan, India</span>
+            </div>
+            <div class="contact__info-item">
+              <span class="contact__info-icon">📞</span>
+              <span>+91 98765 43210</span>
+            </div>
+            <div class="contact__info-item">
+              <span class="contact__info-icon">✉️</span>
+              <span>hello@clickart.studio</span>
+            </div>
+          </div>
+
+          <div class="contact__socials reveal reveal-delay-8">
+            <a href="#" class="contact__social-link" aria-label="Instagram">
+              <span>📸</span>
+            </a>
+            <a href="#" class="contact__social-link" aria-label="YouTube">
+              <span>▶️</span>
+            </a>
+            <a href="#" class="contact__social-link" aria-label="Pinterest">
+              <span>📌</span>
+            </a>
+            <a href="#" class="contact__social-link" aria-label="Facebook">
+              <span>👥</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">
+        © 2026 <a href="#hero">Click Art</a>. All rights reserved.
+        Crafted with light & love.
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- ====== SCRIPTS ====== -->
+  <script src="js/spotlight.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/magnetic.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/reviews.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
